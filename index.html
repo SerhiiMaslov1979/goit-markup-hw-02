@@ -14,20 +14,20 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="headr">
+    <header class="header-navigation">
       <nav>
         <!-- logo -->
-        <a href="./index.html" class="logo">WebStudio</a>
+        <a href="./index.html" class="header-navigation-logo">WebStudio</a>
         <!-- Меню навігації по інших сторінках -->
-        <ul class="headr-list">
-          <li class="headr-item">
-            <a class="headr-link" href="./index.html">Студія</a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-studio" href="./index.html" class="header-link">Студія</a>
           </li>
-          <li class="headr-item">
-            <a class="headr-link" href="./portfolio.html">Портфоліо</a>
+          <li class="header-item">
+            <a class="header-portfolio" href="./portfolio.html" class="header-link">Портфоліо</a>
           </li>
-          <li class="headr-item">
-            <a class="headr-link" href="#">Контакти</a>
+          <li class="header-item">
+            <a class="header-contact" href="#" class="header-link">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -35,12 +35,12 @@
         <li class="item">
           <!-- Посилання на адресу електронної пошти  -->
           <a class="header-mail" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+            class="link">info@devstudio.com</a
           >
         </li>
         <li class="item">
           <!-- Посилання на телефонний номер -->
-          <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-phone" href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -49,12 +49,12 @@
       <!-- Секція 1 hero-->
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-link" type="button">Замовити послугу</button>
+        <button class="hero-btn" type="button" class="link">Замовити послугу</button>
       </section>
       <!-- Секція 2 feature-->
       <section class="feature">
-        <h2 class="title">Наші особливості</h2>
-        <ul class="list">
+        <h2 class="feature-title">Наші особливості</h2>
+        <ul class="feature-list">
           <li class="item">
             <h3 class="title">Увага до деталей</h3>
             <p class="text">
@@ -90,6 +90,7 @@
         <ul class="activities-list">
           <li class="item">
             <img
+              class="activiti-foto"
               src="./images/imga.jpg"
               alt="Людина працює за ком'ютером"
               width="370"
@@ -97,6 +98,7 @@
           </li>
           <li class="item">
             <img
+              class="activiti-foto"
               src="./images/imgb.jpg"
               alt="Людина тримає телефон"
               width="370"
@@ -104,6 +106,7 @@
           </li>
           <li class="item">
             <img
+              class="activiti-foto"
               src="./images/imgc.jpg"
               alt="Людина працює на планщеті"
               width="370"
@@ -112,68 +115,72 @@
         </ul>
       </section>
       <!-- Секція 4 workers -->
-      <section class="section">
-        <ul class="section-list">
+      <section class="worker">
+        <ul class="worker-list">
           <li class="item">
             <img
+              class="worker-foto"
               src="./images/1.jpg"
               alt="Молодий чоловік в окулярах"
               width="270"
             />
-            <h3 class="section-title">Ігор Дем'яненко</h3>
-            <p class="section-text">Product Designer</p>
+            <h3 class="worker-title">Ігор Дем'яненко</h3>
+            <p class="worker-text">Product Designer</p>
           </li>
           <li class="item">
             <img
+              class="worker-foto"
               src="./images/2.jpg"
               alt="Молода дівчина в окулярах"
               width="270"
             />
-            <h3 class="section-title">Ольга Рєпіна</h3>
-            <p class="section-text">Frontend Developer</p>
+            <h3 class="worker-title">Ольга Рєпіна</h3>
+            <p class="worker-text">Frontend Developer</p>
           </li>
           <li class="item">
             <img
+              class="worker-foto"
               src="./images/3.jpg"
               alt="Молодий чоловік посміхається"
               width="270"
             />
-            <h3 class="section-title">Микола Тарасов</h3>
-            <p class="section-text">Marketing</p>
+            <h3 class="worker-title">Микола Тарасов</h3>
+            <p class="worker-text">Marketing</p>
           </li>
           <li class="item">
             <img
+              class="worker-foto"
               src="./images/4.jpg"
               alt="Молодий чоловік в окулярах"
               width="270"
             />
-            <h3 class="section-title">Михайло Єрмаков</h3>
-            <p class="section-text">UI Designer</p>
+            <h3 class="worker-title">Михайло Єрмаков</h3>
+            <p class="worker-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Підвал сторінки footer -->
     <footer class="footer">
-      <a class="logo" href="/">WebStudio</a>
+      <a class="footer-logo" href="/">WebStudio</a>
       <address>
         <ul class="footer-list">
           <li class="item">
-            <a
-              class="link"
+            <a 
+              class="footer-addres"
               href="https://goo.gl/maps/cFj6b1vBH22CHA6d8"
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noreferrer noopener" class="link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li class="item">
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="footer-mail" href="mailto:info@devstudio.com"
+            class="link">info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="link" href="tel:+380961111111">+38 (096) 111-11-11</a>
+            <a class="footer-phone" href="tel:+380961111111" class="link">+38 (096) 111-11-11</a>
           </li>
         </ul>
       </address>
