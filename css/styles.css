@@ -1,12 +1,13 @@
 body {
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #757575;
-  /*font-family:  "Raleway" sans-serif;
-  color: #212121;*/
+  font-family: "Raleway";
+  color: #212121;
 }
 
 /*-----------------common list---------------*/
-ul {
+.list {
   list-style: none;
 }
 .link {
@@ -26,6 +27,10 @@ ul {
 
   color: #2196f3;
 }
+.logo-black {
+  color: #000000;
+}
+
 .header-studio {
   font-style: normal;
   font-weight: 500;
@@ -59,7 +64,12 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .header-phone {
@@ -69,6 +79,11 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 
 /*-----------------page-footer---------------*/
@@ -99,6 +114,11 @@ ul {
 
   color: #ffffff;
 }
+.footer-addres:hover,
+.footer-addres:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
 
 .footer-mail {
   font-style: normal;
@@ -111,6 +131,12 @@ ul {
 
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-mail:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
 .footer-phone {
   font-style: normal;
   font-weight: 400;
@@ -122,19 +148,13 @@ ul {
 
   color: rgba(255, 255, 255, 0.6);
 }
-.hero-btn {
+.footer-phone:hover,
+.footer-phone:focus {
+  color: #ffffff;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  /* identical to box height, or 188% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+}
+
+.logo-wight {
   color: #ffffff;
 }
 /*-----------------page-1--------------------*/
@@ -142,6 +162,8 @@ ul {
 /*-----------------section-hero--------------*/
 .hero {
   background: #2f303a;
+}
+.hero-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -153,6 +175,24 @@ ul {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.hero .button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 
 /*-----------------section-feature-----------*/
@@ -174,11 +214,12 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
+  color: #757575;
 }
-
+.footer {
+  background: #2f303a;
+}
 /*-----------------section-activities--------*/
 
 .activities-title {
@@ -222,91 +263,138 @@ ul {
 
 /*-----------------page-2--------------------*/
 /*-----------------page-main-----------------*/
+.header-studio-port {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
+  color: #212121;
+}
+.header-portfolio-port {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.body-title {
+  color: #ffffff;
+}
 .all {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #212121;
+}
+/*------------------work link------------------------*/
 
+.all:hover,
+.all:focus {
+  background: #2196f3;
   color: #ffffff;
 }
 
 .web {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #212121;
+}
+.web:hover,
+.web:focus {
+  background: #2196f3;
+  color: #ffffff;
 }
 .app {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #212121;
+}
+.app:hover,
+.app:focus {
+  background: #2196f3;
+  color: #ffffff;
 }
 .design {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #212121;
+}
+.design:hover,
+.design:focus {
+  background: #2196f3;
+  color: #ffffff;
 }
 .marceting {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #212121;
 }
-
-.title {
+.marceting:hover,
+.marceting:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+/*-----------------Links to work-------------*/
+.work-list .title {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
-
   color: #212121;
 }
-.text {
+.work-list .text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
 }
-
-/*-----------------Links to work-------------*/
 /*-----------------work----------------------*/
-
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* text title #212121*/
 /*text background: #757575;*/
 /*background: linear-gradient(0deg, #2196F3, #2196F3),
