@@ -179,7 +179,7 @@ body {
 }
 
 /*-----------------section-feature-----------*/
-.section-title {
+.feature .title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -188,7 +188,7 @@ body {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.feature-text {
+.feature .text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
