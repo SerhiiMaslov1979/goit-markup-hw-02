@@ -1,3 +1,9 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 body {
   background: #ffffff;
   font-family: "Raleway";
@@ -21,11 +27,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .logo-black {
   color: #000000;
@@ -36,12 +41,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .header-list .link:hover,
 .header-list .link:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .header-mail {
   font-style: normal;
@@ -49,12 +54,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .header-mail:hover,
 .header-mail:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .header-phone {
   font-style: normal;
@@ -62,12 +68,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .header-phone:hover,
 .header-phone:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 /*-----------------page-footer---------------*/
 .footer {
@@ -79,27 +86,25 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .footer-addres {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-addres:hover,
 .footer-addres:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .footer-mail {
   font-style: normal;
@@ -108,11 +113,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-mail:hover,
 .footer-mail:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 .footer-phone {
@@ -123,11 +129,12 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-phone:hover,
 .footer-phone:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 .logo-wight {
@@ -162,32 +169,32 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 /*-----------------section-feature-----------*/
-.title {
+.section-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
-.text {
+.feature-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /*-----------------section-activities--------*/
 
@@ -198,7 +205,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 /*-----------------section-workers-----------*/
 .worker {
@@ -212,7 +219,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 .worker-text {
   font-style: normal;
@@ -239,11 +246,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .body-list .link:hover,
 .body-list .link:focus {
-  background: #2196f3;
+  background: var(--accent-color);
   color: #ffffff;
 }
 /*-----------------Links to work-------------*/
@@ -253,7 +260,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .work-list .text {
   font-style: normal;
@@ -274,8 +281,3 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* text title #212121*/
-/*text background: #757575;*/
-/*background: linear-gradient(0deg, #2196F3, #2196F3),
-linear-gradient(0deg, #FFFFFF, #FFFFFF);*/
-/*background: #FFFFFF99;background: rgba(255, 255, 255, 0.6);*/
