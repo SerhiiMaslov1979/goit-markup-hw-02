@@ -1,9 +1,9 @@
 body {
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  color: #757575;
+  background: #ffffff;
   font-family: "Raleway";
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
 }
 
 /*-----------------common list---------------*/
@@ -30,17 +30,7 @@ body {
 .logo-black {
   color: #000000;
 }
-
-.header-studio {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-.header-portfolio {
+.header-list .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -48,16 +38,11 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
-.header-contact {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
+.header-list .link:hover,
+.header-list .link:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
-
 .header-mail {
   font-style: normal;
   font-weight: 500;
@@ -71,7 +56,6 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-
 .header-phone {
   font-style: normal;
   font-weight: 500;
@@ -85,7 +69,6 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-
 /*-----------------page-footer---------------*/
 .footer {
   background: #2f303a;
@@ -102,7 +85,6 @@ body {
 
   color: #2196f3;
 }
-
 .footer-addres {
   font-style: normal;
   font-weight: 400;
@@ -119,16 +101,12 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
-
 .footer-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
@@ -142,8 +120,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -157,6 +133,9 @@ body {
 .logo-wight {
   color: #ffffff;
 }
+.footer {
+  background: #2f303a;
+}
 /*-----------------page-1--------------------*/
 /*-----------------page-main-----------------*/
 /*-----------------section-hero--------------*/
@@ -168,12 +147,9 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .hero .button {
@@ -196,9 +172,6 @@ body {
 }
 
 /*-----------------section-feature-----------*/
-.feature-title {
-  color: #ffffff;
-}
 .title {
   font-style: normal;
   font-weight: 700;
@@ -206,7 +179,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 .text {
@@ -217,9 +189,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.footer {
-  background: #2f303a;
-}
 /*-----------------section-activities--------*/
 
 .activities-title {
@@ -229,22 +198,17 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
-
 /*-----------------section-workers-----------*/
 .worker {
   background: #f5f4fa;
 }
-
 .worker-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -255,36 +219,18 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 /*-----------------page-2--------------------*/
-/*-----------------page-main-----------------*/
-.header-studio-port {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.header-portfolio-port {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
+/*-----------------Header--------------------*/
 .body-title {
   color: #ffffff;
 }
-.all {
+/*-----------------page-main-----------------*/
+/*------------------work link button------------------------*/
+.body-list .link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -295,75 +241,8 @@ body {
   cursor: pointer;
   color: #212121;
 }
-/*------------------work link------------------------*/
-
-.all:hover,
-.all:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-
-.web {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #212121;
-}
-.web:hover,
-.web:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-.app {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #212121;
-}
-.app:hover,
-.app:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-.design {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #212121;
-}
-.design:hover,
-.design:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-.marceting {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  color: #212121;
-}
-.marceting:hover,
-.marceting:focus {
+.body-list .link:hover,
+.body-list .link:focus {
   background: #2196f3;
   color: #ffffff;
 }
