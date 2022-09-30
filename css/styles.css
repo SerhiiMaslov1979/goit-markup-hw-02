@@ -257,7 +257,7 @@ body {
 .section-list .link:hover,
 .section-list .link:focus {
   background: var(--accent-color);
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 /*-----------------Links to work-------------*/
 .section-list .title {
