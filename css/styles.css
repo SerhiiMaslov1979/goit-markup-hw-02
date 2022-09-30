@@ -58,9 +58,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-/*.header-list .link:hover,
-.header-list .link:focus {
-  color: var(--accent-color);*/
 
 .header-mail {
   font-style: normal;
@@ -240,8 +237,6 @@ body {
 }
 
 /*-----------------page-2--------------------*/
-/*-----------------Header--------------------*/
-/*-----------------page-main-----------------*/
 /*------------------work link button------------------------*/
 .section-list .link {
   font-family: inherit;
