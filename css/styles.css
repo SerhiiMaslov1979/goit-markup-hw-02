@@ -62,6 +62,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent-color);
+}
 
 .header-mail {
   font-style: normal;
