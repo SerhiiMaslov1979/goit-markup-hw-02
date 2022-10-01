@@ -9,18 +9,18 @@
   --section4-background: #f5f4fa;
   --sectionhero-color: #ffffff;
   --section1-title-color: #ffffff;
+  --section3-background-color: #f5f5f5;
   --section1-background: #2f303a;
   --logo1-color: #2196f3;
   --logo2-color: #000000;
   --logo3-color: #ffffff;
   --footercontact-color: rgba(255, 255, 255, 0.6);
   --activ-accent-color: #188ce8;
-  /* activ background: #188ce8;
-  background: #2196F3;*/
 }
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #757575;
 }
 
 /*-----------------common list---------------*/
@@ -174,17 +174,20 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--section1-title-color);
-  background: var(--activ-accent-color);
+  background: var(--accent-color);
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
   color: var(--accent2-color);
-  background: var(--accent-color);
+  background: var(--activ-accent-color);
 }
 
 /*-----------------section-feature-----------*/
-.feature .title {
+.feature {
+  background-color: var(--section3-background-color);
+}
+.feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -192,13 +195,15 @@ body {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.feature .text {
+.feature-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 /*-----------------section-activities--------*/
+.activities {
+  background: var(--section3-background-color);
+}
 
 .activities-title {
   font-weight: 700;
@@ -212,7 +217,7 @@ body {
 .worker {
   background: var(--section4-background);
 }
-.worker .title {
+.worker2-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -238,37 +243,35 @@ body {
 
 /*-----------------page-2--------------------*/
 /*------------------work link button------------------------*/
-.section-list .link {
-  font-family: inherit;
+.worklink-btn {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer;
   color: var(--title-text-color);
+  background-color: var(--section4-background);
 }
-.section-list .link:hover,
-.section-list .link:focus {
+.worklink-btn:hover,
+.worklink-btn:focus {
   background: var(--accent-color);
-  color: var(--title-text-color);
+  color: var(--header-background);
 }
 /*-----------------Links to work-------------*/
-.section-list .title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+.linkstowork-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--title-text-color);
 }
-.section-list .text {
-  font-family: "Roboto", sans-serif;
+.linkstowork-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
+
 /*-----------------work----------------------*/
 .visually-hidden {
   position: absolute;
