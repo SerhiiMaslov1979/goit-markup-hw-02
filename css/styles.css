@@ -39,6 +39,9 @@ body {
 .header-navigation {
   background: var(--header-background-color);
 }
+/*.header-navigation {
+  background: var(--header-background-color);
+}*/
 
 .header-navigation-logo {
   font-family: "Raleway", sans-serif;
