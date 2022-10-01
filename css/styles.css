@@ -10,6 +10,7 @@
   --sectionhero-color: #ffffff;
   --section1-title-color: #ffffff;
   --section3-background-color: #f5f5f5;
+  --section31-background-color: #f5f4fa;
   --section1-background: #2f303a;
   --logo1-color: #2196f3;
   --logo2-color: #000000;
@@ -217,9 +218,13 @@ body {
   color: var(--title-text-color);
 }
 /*-----------------section-workers-----------*/
+/*.worker {
+  background-color: var(--section31-background-color);
+}*/
 .worker {
-  background: var(--section1-title-color);
+  background-color: var(--section3-background-color);
 }
+
 .worker2-title {
   font-weight: 700;
   font-size: 36px;
