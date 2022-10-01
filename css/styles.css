@@ -5,7 +5,7 @@
   --accent2-color: #ffffff;
   --header-background: #ffffff;
   --footer-background: #2f303a;
-  --body-background: #f5f5f5;
+  --body-background-color: #ffffff;
   --section4-background: #f5f4fa;
   --sectionhero-color: #ffffff;
   --section1-title-color: #ffffff;
@@ -28,6 +28,9 @@ body {
   list-style: none;
 }
 .link {
+  text-decoration: none;
+}
+.linkwork-link {
   text-decoration: none;
 }
 
@@ -184,9 +187,9 @@ body {
 }
 
 /*-----------------section-feature-----------*/
-.feature {
+/*.feature {
   background-color: var(--section3-background-color);
-}
+}*/
 .feature-title {
   font-weight: 700;
   font-size: 14px;
@@ -201,9 +204,9 @@ body {
   letter-spacing: 0.03em;
 }
 /*-----------------section-activities--------*/
-.activities {
-  background: var(--section3-background-color);
-}
+/*.activities {
+  background: var(--body-background-color);
+}*/
 
 .activities-title {
   font-weight: 700;
@@ -214,9 +217,9 @@ body {
   color: var(--title-text-color);
 }
 /*-----------------section-workers-----------*/
-.worker {
-  background: var(--section4-background);
-}
+/*.worker {
+  background: var(--section1-title-color)
+}*/
 .worker2-title {
   font-weight: 700;
   font-size: 36px;
@@ -258,14 +261,15 @@ body {
   color: var(--header-background);
 }
 /*-----------------Links to work-------------*/
-.linkstowork-title {
+
+.linkwork-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--title-text-color);
 }
-.linkstowork-text {
+.linkwork-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
