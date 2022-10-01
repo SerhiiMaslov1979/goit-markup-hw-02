@@ -217,9 +217,9 @@ body {
   color: var(--title-text-color);
 }
 /*-----------------section-workers-----------*/
-/*.worker {
-  background: var(--section1-title-color)
-}*/
+.worker {
+  background: var(--section1-title-color);
+}
 .worker2-title {
   font-weight: 700;
   font-size: 36px;
